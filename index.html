@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Torneo de Ventajas</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="card">
+        <h3>Entrada de Torneo</h3>
+        <p><small>Pega el formato: Rondas, seguido de puntos P1 y P2 por línea.</small></p>
+        <textarea id="dataInput" placeholder="5&#10;140 82&#10;89 134&#10;..."></textarea>
+        <button onclick="procesarJuego()">Calcular Ganador</button>
+        <div id="output">
+            <strong>Resultado:</strong> <span id="finalResult"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
